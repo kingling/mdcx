@@ -15,6 +15,7 @@ on:
         required: false
 
 env:
+  BUILD_FOR_WINDOWS_LEGACY : 1
   PYTHON_VERSION: '3.9'
   IS_DAILY: ${{ !startsWith(github.ref, 'refs/tags/120') }}
 
